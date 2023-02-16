@@ -103,10 +103,10 @@
         "scroll-step": 5
     },
     "battery": {
-        "format": "<span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
+        "format": "<span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}",
         "format-icons": ["", "", "", "", ""],
         "format-time": "{H}h{M}m",
-        "format-charging": " {icon} {capacity}% - {time}",
+        "format-charging": " {icon} {capacity}",
         "format-full": " {icon}  Charged",
         "interval": 30,
         "states": {

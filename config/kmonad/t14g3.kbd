@@ -2,13 +2,13 @@
   ;; For Linux
   ;;input  (device-file "/dev/input/event3") ;; arch install
   ;; input  (device-file "/dev/input/event0") ;; nixos
-   input  (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd") ;; works on all, hopefully
+  input  (device-file "/dev/input/by-path/platform-i8042-serio-0-event-kbd") ;; works on all, hopefully
   output (uinput-sink "My KMonad output")
     ;; To understand the importance of the following line, see the section on
     ;; Compose-key sequences at the near-bottom of this file.
     ;;"/run/current-system/sw/bin/sleep 1 && /run/current-system/sw/bin/setxkbmap -option compose:ralt")
 
-  ;;cmp-seq ralt    ;; Set the compose key to `RightAlt'
+  ;;cmp-seq cmp    ;; Set the compose key to `RightAlt'
   ;;cmp-seq-delay 5 ;; 5ms delay between each compose-key sequence press
 
   ;; Comment this is you want unhandled events not to be emitted
@@ -24,16 +24,19 @@
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   caps a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft     pgup  up  pgdn
-  lctl     lmet lalt      spc           ralt  ssrq rctl           left down rght
+  lctl     lmet lalt      spc           ralt  prnt rctl           left down rght
 )
 
 (defalias
-    dflt (layer-switch default)
-    zsft (tap-hold 170 z lsft)
+    
+    ae (tap-hold-next 200 ' (around ralt q))
+    oe (tap-hold-next 200 ; (around ralt l))
+    aa (tap-hold-next 200 [ (around ralt w))
 
-    esctl (tap-next esc lctl) ;; ctrl on hold, esc on tap.
-    crtshft (tap-next tab (around lctl lsft))
+    nav (tap-next esc (layer-toggle navigation))
 
+    ;;term (around lmet (around lsft ret))
+    term (around met t)
 )
 
 #| empty layer template
@@ -50,11 +53,19 @@
 (deflayer default
   caps  f1  f2  f3  f4  f5  f6 f7  f8  f9  f10  f11  f12 home end ins del
   grv  1    2    3    4    5    6    7    8    9    0    -    =     bspc
-  @crtshft  q    w    e    r    t    y    u    i    o    p     [   ]    \
-  @esctl  a    s    d    f    g    h    j    k    l    ;     '      ret
+  tab  q    w    e    r    t    y    u    i    o    p     @aa   ]    \
+  @nav  a   s    d    f    g    h    j    k    l    @oe     @ae      ret
   lsft z    x   c    v     b    n    m    ,    .    /          rsft        pgup  up  ralt
-  lctl     lalt lmet         spc          ralt  ssrq rctl                  left down rght
+  lalt lmet lctl         spc          @term  prnt rctl                  left down rght
 )
 
 
+(deflayer navigation
+  _  _  _  _  _  _  _ _  _  _  _  _  _ _ _ _ _
+  _  _    _    _    _    _    _    _    _    _    _    _    _     _
+  _  _    _    _    _    _  home  pgdn pgup end   _     _   _    _
+  _  _    _    _    _    _  left  down  up right   _     _       _
+  _ _   _  _  _   _   _     _    _   _     _         _            _  _  _
+  _     _ _                 _           _  _ _                     _ _ _
+)
 
