@@ -15,4 +15,7 @@ eval "$(starship init zsh)"
 
 # ALIASES
 alias r='ranger'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 alias c='cd ~/.config && r'
+alias p='sudo pacman -S $1'

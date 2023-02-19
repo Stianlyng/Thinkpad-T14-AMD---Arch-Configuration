@@ -39,4 +39,7 @@ export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+# Folder for screenshots
+export GRIM_DEFAULT_DIR="/home/stian/Screenshots"
+
 exec Hyprland

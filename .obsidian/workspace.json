@@ -30,18 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dcabaf1c28af1ea1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/Meditation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8ddd833cbed86f50",
@@ -176,15 +163,15 @@
   },
   "active": "6b64eeffea9aa157",
   "lastOpenFiles": [
-    "notes/Busyness.md",
+    "notes/Untitled.md",
     "Dashboard.md",
-    "notes/Full-stack applikasjonsutvikling.md",
-    "notes/Akademia.md",
-    "notes/Meditation.md",
     "🔮 Dashboard.md",
-    "notes/Øving 3 - IDATT2105.md",
-    "notes/Vue.md",
-    "notes/Nettverksprogrammering.md",
-    "notes/Statistikk.md"
+    "notes/Tools.md",
+    "notes/Awesome.md",
+    "notes/Meditation.md",
+    "notes/Terminal Commands.md",
+    "notes/Akademia.md",
+    "notes/Helse.md",
+    "notes/Diagnoser.md"
   ]
 }
