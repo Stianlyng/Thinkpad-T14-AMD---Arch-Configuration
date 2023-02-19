@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# THIS SCRIPT SHOULD RECIDE INSIDE: ~/.local/bin
+
 cd ~
 
 # Log WLR errors and logs to the hyprland log.
@@ -36,6 +38,5 @@ RANGER_LOAD_DEFAULT_RC=FALSE
 export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_QPA_PLATFORMTHEME=qt5ct
-
 
 exec Hyprland
