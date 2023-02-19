@@ -1,0 +1,13 @@
+{
+  "minimal-style@@tabs-style": "tabs-underline",
+  "minimal-style@@header-height": "30px",
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
+  "catppuccin-interface-styles@@ctp-bold-folder-title": false,
+  "catppuccin-font-styles@@ctp-h1": "var(--ctp-rosewater)",
+  "catppuccin-font-styles@@ctp-h2": "var(--ctp-flamingo)",
+  "catppuccin-font-styles@@ctp-h3": "var(--ctp-pink)",
+  "catppuccin-font-styles@@ctp-h4": "var(--ctp-mauve)",
+  "catppuccin-font-styles@@ctp-h5": "var(--ctp-red)",
+  "catppuccin-font-styles@@ctp-h6": "var(--ctp-maroon)"
+}

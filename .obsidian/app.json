@@ -1,0 +1,7 @@
+{
+  "attachmentFolderPath": "system/attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes",
+  "alwaysUpdateLinks": true,
+  "vimMode": true
+}

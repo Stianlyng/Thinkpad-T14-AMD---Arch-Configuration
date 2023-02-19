@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "053095ee887f6871",
+    "type": "split",
+    "children": [
+      {
+        "id": "4194508cd8b3a78d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf650c8f651fa3be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Akademia.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b64eeffea9aa157",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcabaf1c28af1ea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Meditation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81e6959b0d376e72",
+    "type": "split",
+    "children": [
+      {
+        "id": "3be6959307d58112",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d14835cbe44286e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80b4287904e718a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "static class",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0f9afa5dd488025",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "8ddd833cbed86f50",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aaba3b883118dea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5854c64da2d9b96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fafb51e8675dfa39",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "45b935b87b032289",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "146e279bdb5ea46c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "6b64eeffea9aa157",
+  "lastOpenFiles": [
+    "notes/Busyness.md",
+    "Dashboard.md",
+    "notes/Full-stack applikasjonsutvikling.md",
+    "notes/Akademia.md",
+    "notes/Meditation.md",
+    "🔮 Dashboard.md",
+    "notes/Øving 3 - IDATT2105.md",
+    "notes/Vue.md",
+    "notes/Nettverksprogrammering.md",
+    "notes/Statistikk.md"
+  ]
+}
