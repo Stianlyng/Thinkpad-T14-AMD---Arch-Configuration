@@ -1,45 +1,47 @@
-#!/bin/env bash
-
-# Options for powermenu
-lock=" Lock"
+#!/bin/bash
+ 
+lock=" Lock"
 logout=" Logout"
-shutdown=" Shutdown"
+shutdown="襤 Poweroff"
 reboot=" Reboot"
-sleep="  Sleep"
-
-# Get answer from user via rofi
+sleep=" Suspend"
+ 
 selected_option=$(echo "$lock
 $logout
 $sleep
 $reboot
-$shutdown" | rofi -dmenu\
-                  -i\
-                  -p "Power"\
-                  -config "~/.config/rofi/powermenu.rasi"\
-                  -font "Symbols Nerd Font 12"\
-                  -width "15"\
-                  -lines 5\
-                  -line-margin 3\
-                  -line-padding 10\
-                  -scrollbar-width "0" )
+$shutdown" | rofi -dmenu -i -p "Powermenu" \
+		  -theme "~/.config/rofi/powermenu.rasi")
 
-# Do something based on selected option
 if [ "$selected_option" == "$lock" ]
 then
-    /home/$USER/.config/bspwm/scripts/i3lock-fancy/i3lock-fancy.sh
+   swaylock	--screenshots \
+	  	--clock \
+	 	--indicator \
+		--indicator-radius 100 \
+		--indicator-thickness 7 \
+		--effect-blur 7x5 \
+		--effect-vignette 0.5:0.5 \
+		--ring-color bb00cc \
+		--key-hl-color 880033 \
+		--line-color 00000000 \
+		--inside-color 00000088 \
+		--separator-color 00000000 \
+		--grace 2 \
+		--fade-in 0.2
+
 elif [ "$selected_option" == "$logout" ]
 then
-    bspc quit
+	killall Hyprland
 elif [ "$selected_option" == "$shutdown" ]
 then
-    systemctl poweroff
+ systemctl poweroff
 elif [ "$selected_option" == "$reboot" ]
 then
-    systemctl reboot
+  systemctl reboot
 elif [ "$selected_option" == "$sleep" ]
 then
-    amixer set Master mute
-    systemctl suspend
+  systemctl suspend
 else
-    echo "No match"
+  echo "No match"
 fi
