@@ -1,0 +1,36 @@
+[Desktop Entry]
+Name=Obsidian (1.1.16)
+Exec=/home/stian/Applications/Obsidian-1.1.16_d65b59bd9180b1d95098945fe63107ac.AppImage --no-sandbox --enable-features=UseOzonePlatform --ozone-platform=wayland %U
+Terminal=false
+Type=Application
+Icon=appimagekit_8ad32230546ea6fba49c090c7e9020e9_obsidian
+StartupWMClass=obsidian
+X-AppImage-Version=1.1.16
+Comment=Obsidian
+MimeType=x-scheme-handler/obsidian;
+Categories=Office;
+
+TryExec=/home/stian/Applications/Obsidian-1.1.16_d65b59bd9180b1d95098945fe63107ac.AppImage
+X-AppImage-Old-Icon=obsidian
+X-AppImage-Old-Name=Obsidian
+X-AppImage-Identifier=8ad32230546ea6fba49c090c7e9020e9
+Actions=Remove;
+X-AppImageLauncher-Version=2.2.0 (git commit 0f91801), built on 2023-03-07 09:20:51 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/appimagelauncher/remove "/home/stian/Applications/Obsidian-1.1.16_d65b59bd9180b1d95098945fe63107ac.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[cs]=Odebrat AppImage ze systému
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

@@ -4,28 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "4194508cd8b3a78d",
+        "id": "3c4b6c75133bf8d4",
         "type": "tabs",
         "children": [
           {
-            "id": "cf650c8f651fa3be",
+            "id": "771e95a7b24ae71e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Akademia.md",
+                "file": "notes/Øving 4 - IDATT2105 - REST, lagdeling, og logging.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6b64eeffea9aa157",
+            "id": "e8caa2463377f727",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8b2d046ebf6d5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "to-dos.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static class",
+                "query": "øving 1 Data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 245.00043487548828
   },
   "right": {
     "id": "8ddd833cbed86f50",
@@ -99,7 +111,7 @@
               "type": "backlink",
               "state": {
                 "file": "Dashboard.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -142,7 +154,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,17 +174,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6b64eeffea9aa157",
+  "active": "e8caa2463377f727",
   "lastOpenFiles": [
-    "notes/Untitled.md",
+    "notes/Øving 4 - IDATT2105 - REST, lagdeling, og logging.md",
+    "to-dos.md",
     "Dashboard.md",
-    "🔮 Dashboard.md",
-    "notes/Tools.md",
-    "notes/Awesome.md",
-    "notes/Meditation.md",
-    "notes/Terminal Commands.md",
+    "notes/Øving 2 - Datakommunikasjon - IDATT2104.md",
+    "notes/Øving 6 - IDATT2104.md",
+    "notes/Øving 4 - IDATT2001.md",
+    "notes/Øving 1 - Datakommunikasjon - IDATT2104.md",
+    "notes/IDATT2104 - Forelesning 02-22-2023.md",
+    "system/attachments/Pasted image 20230310221036.png",
+    "notes/Nettverksprogrammering.md",
+    "notes/Øving 5 Del 1 - IDATT2105.md",
+    "notes/Wacom Tablet.md",
+    "notes/REST.md",
+    "Subjects/Operating Systems/Three general roles of an Operating System.md",
+    "Subjects/Operating Systems/Roles of the Oprerating System.md",
+    "Subjects/Operating Systems/📜 Operating System.md",
+    "Subjects/Operating Systems/Operativsystemer.md",
+    "Excalidraw/Drawing 2023-02-28 20.53.13.excalidraw.md",
+    "Excalidraw/Drawing 2023-02-28 12.09.01.excalidraw.md",
+    "Excalidraw/Drawing 2023-02-28 11.05.08.excalidraw.md",
+    "system/attachments/Pasted image 20230225160107.png",
+    "system/attachments/Pasted image 20230225154305.png",
+    "system/attachments/Pasted image 20230225154147.png",
+    "system/attachments/Pasted image 20230224211831.png",
+    "system/attachments/Pasted image 20230224215620.png",
+    "system/attachments/Pasted image 20230224212036.png",
+    "system/attachments/Pasted image 20230224215851.png",
+    "system/attachments/Pasted image 20230224215755.png",
+    "system/attachments/Pasted image 20230224195242.png",
+    "notes/Øving 1 - Datakommunikasjon - IDATT2104.html",
+    "notes/Øving 1 - Datakommunikasjon - IDATT2104.tex",
+    "Excalidraw/Keyboard Layouts.excalidraw.md",
+    "Forelesningsnotater/IDATT2104 - Forelesning 01-16-2023.md",
+    "notes/Øving P4 - IDATT2104.md",
     "notes/Akademia.md",
-    "notes/Helse.md",
-    "notes/Diagnoser.md"
+    "notes/Programmering 2.md",
+    "Øvinger og Prosjekt/Øving 2 - IDATT2001 - A2 Teoriprøve.md"
   ]
 }

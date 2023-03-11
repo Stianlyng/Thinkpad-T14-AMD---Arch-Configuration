@@ -1,0 +1,19 @@
+[MIME Cache]
+application/ipfix=org.wireshark.Wireshark.desktop;
+application/vnd.tcpdump.pcap=org.wireshark.Wireshark.desktop;
+application/x-5view=org.wireshark.Wireshark.desktop;
+application/x-apple-packetlogger=org.wireshark.Wireshark.desktop;
+application/x-endace-erf=org.wireshark.Wireshark.desktop;
+application/x-etherpeek=org.wireshark.Wireshark.desktop;
+application/x-iptrace=org.wireshark.Wireshark.desktop;
+application/x-ixia-vwr=org.wireshark.Wireshark.desktop;
+application/x-lanalyzer=org.wireshark.Wireshark.desktop;
+application/x-micropross-mplog=org.wireshark.Wireshark.desktop;
+application/x-netinstobserver=org.wireshark.Wireshark.desktop;
+application/x-nettl=org.wireshark.Wireshark.desktop;
+application/x-pcapng=org.wireshark.Wireshark.desktop;
+application/x-radcom=org.wireshark.Wireshark.desktop;
+application/x-snoop=org.wireshark.Wireshark.desktop;
+application/x-tektronix-rf5=org.wireshark.Wireshark.desktop;
+application/x-visualnetworks=org.wireshark.Wireshark.desktop;
+x-scheme-handler/obsidian=appimagekit_8ad32230546ea6fba49c090c7e9020e9-Obsidian.desktop;
